@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/modal.css" />
+  </head>
+  <body>
+    <section class="content">
+      <div class="content-title">Click on the button below</div>
+      <button class="content-btn" onclick="openModal(event)">Open Modal</button>
+    </section>
+
+    <section class="modal" id="modal">
+      <section class="modal-header">
+        <div class="modal-header-text">Modal title</div>
+        <div class="modal-header-close" onclick="closeModal(event)">X</div>
+      </section>
+      <section class="modal-body">
+        <div class="modal-body-title">Body title</div>
+        <div class="modal-body-content">
+          Modal content here. Modal content here. Modal content here. Modal content here. Modal content here. Modal content here. Modal content here.
+        </div>
+      </section>
+    </section>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

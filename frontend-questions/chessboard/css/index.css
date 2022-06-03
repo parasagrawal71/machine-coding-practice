@@ -1,0 +1,32 @@
+.chessboard {
+}
+
+div[class^="row-"] {
+  display: flex;
+}
+
+div[class*="cell-"] {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+/* div[class^="cell-"]:hover {
+  background-color: lightblue;
+} */
+
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.lightblue {
+  background-color: lightblue;
+}

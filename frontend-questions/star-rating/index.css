@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+.stars {
+  display: flex;
+}
+
+div[class^="star-"] {
+  width: 50px;
+  height: 50px;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+/* 
+div[class^="star-"]:before {
+  content: "★";
+  color: lightgrey;
+  font-size: 50px;
+} */
+
+div[class^="star-"]:not(:last-child) {
+  margin-right: 10px;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.lightyellow {
+  background-color: rgb(110, 110, 9);
+}

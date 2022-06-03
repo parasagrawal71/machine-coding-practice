@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.content-btn {
+  align-self: center;
+  cursor: pointer;
+  background-color: rgb(53, 53, 104);
+  color: white;
+  padding: 5px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+}
