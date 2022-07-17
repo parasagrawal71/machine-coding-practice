@@ -45,7 +45,7 @@ class Driver {
           if (inputs.length === 1) {
             expenseManager.showBalances();
           } else {
-            expenseManager.showBalances(paidBy);
+            expenseManager.showBalance(paidBy);
           }
           break;
 
@@ -81,6 +81,7 @@ class Driver {
               throw new Error("Invalid expense type");
           }
           break;
+
         default:
           throw new Error("Invalid command type");
       }
